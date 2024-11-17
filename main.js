@@ -2,7 +2,7 @@
     const baseUrl = "https://www.fab.com";
 
     // Extract cookies and CSRF token from document cookies or other mechanisms
-    const csrfToken = getCookie("sb_csrftoken");
+    const csrfToken = getCookie("fab_csrftoken");
     const cookie = document.cookie;
 
     if (!csrfToken || !cookie) {
